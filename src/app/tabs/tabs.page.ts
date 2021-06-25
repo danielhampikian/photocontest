@@ -36,6 +36,7 @@ export class TabsPage implements OnInit {
       console.dir(err);
       alert("logout failed");
     }
+    alert("logout run");
 
   }
 
