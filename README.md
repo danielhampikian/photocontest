@@ -3,6 +3,7 @@
 This is a photo contest app.  The photo upload works just fine as a pwa currently.
 
 TODO: 
+0. Get development cycle happening
 1. fix the heart likes 
 2. Get heart likes the way you want them for the contest
 3. Add liked and ability to like stats to profile
