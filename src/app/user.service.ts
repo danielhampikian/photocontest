@@ -16,6 +16,11 @@ export class UserService {
         this.user = user
     }
 
+    clearUser() {
+        this.user = null;
+        this.user.uid = null;
+    }
+
 
     getUID() {
         return this.user.uid;
