@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-button expand="block">Block Button</ion-button>
   <ion-card *ngFor="let post of posts">
     <ion-img (click)="goTo(post.postId)" src="{{ post.image }}"></ion-img>
   </ion-card>
